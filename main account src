@@ -1,0 +1,275 @@
+wpcf7-form input[type=text],
+.wpcf7-form input[type=email],
+.wpcf7-form textarea {
+    border: 1px solid #D0D9E2;
+    padding: 8px 12px;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 35px;
+    font-weight: 400;
+    color: #1f2949;
+    font-size: 14px;
+    background: #FAFCFD;
+}
+ .wpcf7-form textarea{
+     height: 126px;
+ }
+.wpcf7-form input:focus,
+.wpcf7-form textarea:focus {
+    outline-offset: 0px;
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.wpcf7-form input[type=text]::-webkit-input-placeholder, 
+.wpcf7-form textarea::-webkit-input-placeholder,
+.wpcf7-form input[type=email]::-webkit-input-placeholder{
+    color: #B8C1CC;
+}
+div.wpcf7-mail-sent-ok {
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+span.wpcf7-not-valid-tip {
+    position: relative;
+    top: -25px;
+}
+.map-info-content {
+    text-align: center;
+}
+
+
+/* -------------------------------------- *
+*    04. Coming Soon    				  *
+* --------------------------------------- */
+a.error-logo img{
+    max-width: 430px;
+}
+p.user-info-text{
+    font-size: 13px;
+    letter-spacing: -0.31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.page-template-coming-soon {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-size: cover;
+}
+.coming-soon-main-wrap{
+    display: table;
+}
+.coming-soon-main-wrap .container{
+    display: table-cell;
+    vertical-align: middle;
+}
+.comingsoon img.enter-logo {
+    width: 78px;
+}
+.comingsoon-warper {
+    margin-top: 20px;
+}
+.subnewslatter {
+    margin-left: -95px !important;
+    height: 50px !important;
+    width: 100px;
+    background: #009dd6 !important;
+    margin: 0;
+    padding: 0;
+}
+.coming-soon-logo {
+    margin-top: 0px;
+}
+.comingsoon-content .comingsoon-title {
+    font-size: 46px;
+    font-weight: 700;
+    word-break: break-word;
+    padding: 10px 0 15px;
+    color: #ffffff;
+    letter-spacing: -0.8px;
+    line-height: 1.4;
+}
+.comingsoon-newslatter-descrip {
+    display: inline-block;
+    color: #b1b8c9;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 28px;
+}
+#tixon-comingsoon {
+    padding-top: 72px;
+}
+.inputnewslatter {
+    width: 405px !important;
+    float: left;
+}
+.subnewslatter {
+    margin-top: inherit !important;
+}
+.comingsoon {
+    width: 100%;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.comingsoon-wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.comingsoon-content {
+    vertical-align: middle;
+}
+#comingsoon-countdown .countdown-amount {
+    font-size: 34px;
+    font-weight: bold;
+    display: block;
+    color: #ffffff;
+}
+#comingsoon-countdown .countdown-period {
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.comingsoon .sub-page-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+.comingsoon .soon-page-header {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0;
+}
+.countdown-section {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+    padding-top: 14px;
+    border-radius: 12px;
+}
+.comingsoon-footer .social-share ul {
+    text-align: center;
+}
+.comingsoon .days,
+.comingsoon .hours,
+.comingsoon .minutes,
+.comingsoon .seconds {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+p.comingsoon-message-desc {
+    font-size: 24px;
+    font-weight: 700;
+}
+.social-share ul {
+    padding: 0;
+    margin: 0;
+}
+.social-share ul li{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: right;
+    margin-left: 15px;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+.social-share ul li a{
+    color: #fff;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+    font-size: 12px;
+}
+.social-share ul li:hover a{
+    color: #ffffff;
+}
+.comingsoon .social-share ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.comingsoon-footer {
+    margin-top: 80px;
+}
+.comingsoon .social-share li a {
+    color: rgba(255,255,255,.3);
+    font-size: 17px;
+    -webkit-transition: color 400ms;
+    transition: color 400ms;
+    padding: 0 10px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    display: inline-block;
+    width: 50px;
+    background: rgba(255,255,255,.1);
+    border-radius: 3px;
+}
+.comingsoon .mc4wp-form-fields input[type="email"] {
+    background-color: #fff;
+    padding: 20px;
+    color: #535967;
+    border: 0;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    font-weight: 400;
+    width: 75%;
+    float: left;
+}
+.comingsoon .mc4wp-form-fields input[type="email"]::placeholder {
+    color: #535967;
+    font-weight: 400;
+}
+.comingsoon .mc4wp-form-fields input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: pink;
+  }
+.comingsoon .mc4wp-form-fields input[type="email"]::-moz-placeholder { /* Firefox 19+ */
+    color: pink;
+  }
+.comingsoon .mc4wp-form-fields input[type="email"]:-ms-input-placeholder { /* IE 10+ */
+    color: pink;
+  }
+.comingsoon .mc4wp-form-fields input[type="email"]:-moz-placeholder { /* Firefox 18- */
+    color: pink;
+  }
+.coming-soon-newslatter {
+    display: inline-block;
+    width: 100%;
+}
+.comingsoon .mc4wp-form-fields input[type="email"]::placeholder {
+    color: #535967;
+}
+.coming-soon-newslatter .mc4wp-form-fields button {
+    padding: 14px 20px;
+}
+
+wpcf7-form input[type=text],.wpcf7-form input[type=email],.wpcf7-form textarea {    border: 1px solid #D0D9E2;    padding: 8px 12px;    border-radius: 4px;    width: 100%;    margin-bottom: 35px;    font-weight: 400;    color: #1f2949;    font-size: 14px;    background: #FAFCFD;} .wpcf7-form textarea{     height: 126px; }.wpcf7-form input:focus,.wpcf7-form textarea:focus {    outline-offset: 0px;    outline: -webkit-focus-ring-color auto 0px;}.wpcf7-form input[type=text]::-webkit-input-placeholder, .wpcf7-form textarea::-webkit-input-placeholder,.wpcf7-form input[type=email]::-webkit-input-placeholder{    color: #B8C1CC;}div.wpcf7-mail-sent-ok {    border-radius: 4px;    padding: 10px;    text-align: center;}div.wpcf7-validation-errors {    border: 2px solid #f7e700;    text-align: center;    border-radius: 4px;    padding: 10px;    margin-left: 0;    margin-right: 0;}span.wpcf7-not-valid-tip {    position: relative;    top: -25px;}.map-info-content {    text-align: center;}
+
+/* -------------------------------------- **    04. Coming Soon    				  ** --------------------------------------- */a.error-logo img{    max-width: 430px;}p.user-info-text{    font-size: 13px;    letter-spacing: -0.31px;    font-family: 'Montserrat', sans-serif;    font-weight: 700;    margin-bottom: 0;}.page-template-coming-soon {    width: 100%;    height: 100%;    align-items: center;    background-size: cover;}.coming-soon-main-wrap{    display: table;}.coming-soon-main-wrap .container{    display: table-cell;    vertical-align: middle;}.comingsoon img.enter-logo {    width: 78px;}.comingsoon-warper {    margin-top: 20px;}.subnewslatter {    margin-left: -95px !important;    height: 50px !important;    width: 100px;    background: #009dd6 !important;    margin: 0;    padding: 0;}.coming-soon-logo {    margin-top: 0px;}.comingsoon-content .comingsoon-title {    font-size: 46px;    font-weight: 700;    word-break: break-word;    padding: 10px 0 15px;    color: #ffffff;    letter-spacing: -0.8px;    line-height: 1.4;}.comingsoon-newslatter-descrip {    display: inline-block;    color: #b1b8c9;    font-size: 18px;    margin-bottom: 50px;    line-height: 28px;}#tixon-comingsoon {    padding-top: 72px;}.inputnewslatter {    width: 405px !important;    float: left;}.subnewslatter {    margin-top: inherit !important;}.comingsoon {    width: 100%;    color: #fff;    background-size: cover;    background-repeat: no-repeat;    background-attachment: fixed;    text-align: center;}.comingsoon-wrap {    width: 100%;    height: 100%;    display: table;}.comingsoon-content {    vertical-align: middle;}#comingsoon-countdown .countdown-amount {    font-size: 34px;    font-weight: bold;    display: block;    color: #ffffff;}#comingsoon-countdown .countdown-period {    font-size: 16px;    font-weight: 100;    color: #ffffff;    text-align: center;    width: 100%;    display: inline-block;    margin-top: 5px;    text-transform: uppercase;    letter-spacing: 1px;}.comingsoon .sub-page-header {    font-size: 24px;    font-weight: 700;}.comingsoon .soon-page-header {    font-size: 62px;    font-weight: 700;    line-height: 1;    margin-bottom: 20px;    text-transform: uppercase;    color: #fff;    margin-top: 0;}.countdown-section {    display: inline-block;    padding: 0;    position: relative;    margin: 8px;    width: 100px;    height: 100px;    padding-top: 14px;    border-radius: 12px;}.comingsoon-footer .social-share ul {    text-align: center;}.comingsoon .days,.comingsoon .hours,.comingsoon .minutes,.comingsoon .seconds {    display: block;    font-size: 60px;    margin-bottom: 15px;    font-weight: 700;}p.comingsoon-message-desc {    font-size: 24px;    font-weight: 700;}.social-share ul {    padding: 0;    margin: 0;}.social-share ul li{    display: inline-block;    font-size: 14px;    border-radius: 50%;    text-align: right;    margin-left: 15px;    -webkit-transition: 400ms;    transition: 400ms;}.social-share ul li a{    color: #fff;    -webkit-transition: 400ms;    transition: 400ms;    font-size: 12px;}.social-share ul li:hover a{    color: #ffffff;}.comingsoon .social-share ul li {    display: inline-block;    margin: 0 5px;}.comingsoon-footer {    margin-top: 80px;}.comingsoon .social-share li a {    color: rgba(255,255,255,.3);    font-size: 17px;    -webkit-transition: color 400ms;    transition: color 400ms;    padding: 0 10px;    line-height: 50px;    text-align: center;    height: 50px;    display: inline-block;    width: 50px;    background: rgba(255,255,255,.1);    border-radius: 3px;}.comingsoon .mc4wp-form-fields input[type="email"] {    background-color: #fff;    padding: 20px;    color: #535967;    border: 0;    height: 50px;    font-family: 'Montserrat', sans-serif;    font-size: 15px;    border-radius: 3px;    font-weight: 400;    width: 75%;    float: left;}.comingsoon .mc4wp-form-fields input[type="email"]::placeholder {    color: #535967;    font-weight: 400;}.comingsoon .mc4wp-form-fields input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */    color: pink;  }.comingsoon .mc4wp-form-fields input[type="email"]::-moz-placeholder { /* Firefox 19+ */    color: pink;  }.comingsoon .mc4wp-form-fields input[type="email"]:-ms-input-placeholder { /* IE 10+ */    color: pink;  }.comingsoon .mc4wp-form-fields input[type="email"]:-moz-placeholder { /* Firefox 18- */    color: pink;  }.coming-soon-newslatter {    display: inline-block;    width: 100%;}.comingsoon .mc4wp-form-fields input[type="email"]::placeholder {    color: #535967;}.coming-soon-newslatter .mc4wp-form-fields button {    padding: 14px 20px;}
